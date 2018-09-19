@@ -3,58 +3,65 @@
 body{
     padding: 0;
     margin: 0;
+    min-width: 400px;
+    
 }
-.main_video {
-    background-image: url("banner.jpg");
-    background-size: cover; 
-    height: 50em; 
-    text-align: center;
+header{
+    padding: 0;
+    margin: 0;
+    height: 42em; 
     position: relative;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+video{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
 }
 header h1{
     color: #ffffff;
-    font-size: 5em;
+    font-size: 6em;
     font-family: 'Passion One', cursive;
+    margin: 0;
+    font-weight: 400;
 }
 header p{
     color: rgba(255, 255, 255, 0.85);
-	font-size: 1.5em;
-	font-weight: 300;
+	font-size: 1.8em;
+    font-weight: 300;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    line-height: 1.5;
 }
-header a{
+header .ha{
     color: rgba(255, 255, 255, 0.75);
 	text-decoration: none;
-	border-bottom: 1px dotted;
+    border-bottom: 1px dotted;
 }
-header a:hover{
+header .ha:hover{
     color: #FFF;
-	border: none;
+    border: none;
+    
+}
+header .more{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 3.5em;
+    border-radius: 100%;
+    border:solid 1px #FFF;
+    padding: 0.5% 1.2% 0 1.2%;
 }
 
-.main_video .more{
-    background-image: url("arrow.svg");
-	background-position: center 1.35em;
-	background-repeat: no-repeat;
-    background-size: auto;
-	border: 1px solid #fff;
-	border-radius: 100%;
-	color: rgba(255, 255, 255, 0.75);
-	display: block;
-	height: 4em;
-	text-indent: 4em;
-	overflow: hidden;
-	white-space: nowrap;
-	width: 4em;
-	z-index: 2;
-	margin: 0 auto 2em auto;
-}
-.main_video .more:hover {
+header .more:hover {
     background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid #fff;
-    color: #FFF;
 }
 .grid_container{
     display: grid;
