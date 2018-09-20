@@ -75,6 +75,7 @@ header .more:hover {
     padding-right: 14%;
     padding-top: 4%;
     padding-bottom: 4%;
+    margin: 0;
 }
 .grid_container div{
     border-radius:4px;
@@ -278,3 +279,85 @@ h3{
 .button-fit6:hover{
     background-color: #82cec6;
 }
+
+.footer{
+    background-color: #1b1b1f;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3em;
+    padding-bottom: 4em;
+
+}
+h2{
+    font-size: 2em;
+    font-family: "Source Sans Pro";
+    color: #FFF;
+    margin-bottom: 0;
+}
+.footer .p_foot{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Source Sans Pro";
+    color: #FFF;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.5;
+    margin-top: 2em;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+ }
+ul a{
+    text-decoration: none;
+    color: #38383b;
+    font-size: 1.7em;
+    border-radius: 100%;
+    border: solid 1px #38383b;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+ul a i{
+    width: 2.2em;
+    text-align: center;
+}
+
+li{
+    margin-left: 1.5em;
+}
+
+.p_foot2{
+    font-size: 1.1em;
+    font-family: "Source Sans Pro";
+    color: #a7a7a8;
+    font-weight: 100;
+}
+.p_foot2 i{
+    font-size: 0.8em;
+    text-align: center;
+    color: #a7a7a8;
+}
+.p_foot2 a{
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: #FFF;
+}
+ul a:hover{
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    body { 
+        font-size: calc(0.5em + 1vw) ;
+    }
+ 
+ }
