@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
-
 body{
     padding: 0;
     margin: 0;
     min-width: 400px;
-    
+    scroll-behavior: smooth;
 }
 header{
     padding: 0;
